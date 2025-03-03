@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.navbar {
+    background-color: #3f5e2f;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.navbar .logo span {
+    color: #f4c542;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.contact-btn {
+    background-color: white;
+    color: #3f5e2f;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.hero .text {
+    max-width: 50%;
+}
+.hero h1 {
+    font-size: 36px;
+}
+.hero h1 span {
+    color: #d4a02b;
+    font-style: italic;
+}
+.hero img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons a {
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.portfolio-btn {
+    background-color: #3f5e2f;
+    color: white;
+}
+.hire-btn {
+    border: 2px solid black;
+    color: black;
+}
+.skills {
+    background-color: #d4a02b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}

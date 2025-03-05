@@ -1,0 +1,66 @@
+.projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.projects h2 span {
+    color: orange;
+    font-weight: bold;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+.project-card {
+    width: 350px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.learn-more {
+    background-color: #fff;
+    border: 2px solid green;
+    color: green;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px auto;
+}
+
+.learn-more span {
+    color: orange;
+    font-size: 18px;
+}
+
+.learn-more:hover {
+    background-color: green;
+    color: white;
+}
+
+.project-card p {
+    font-size: 16px;
+    margin-top: 10px;
+}

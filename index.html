@@ -3,10 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>My Portfolio </title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/services.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/education.css">
+    <link rel="stylesheet" href="/css/skills.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/work.css">
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <h1> My Portfolio</h1>
-    
+
+    <header>
+    <div class="navbar">
+        <div class="logo">Dulanji<span>.</span></div>
+        <div>
+            <a href="">Home</a>
+            <a href="">Services</a>
+            <a href="">About Me</a>
+            <a href="">Skills</a>
+            <a href="">Education</a>
+            <a href="">Work</a>
+        </div>
+        <a href="#" class="contact-btn">Contact me</a>
+    </div>
+    </header>
+
+    <section id="home">
+    <div class="hero">
+        <div class="text">
+            <h2>Hello There!</h2>
+            <h1>I'm <span>Dulanji Amanda,</span><br>Full Stack Developer.</h1>
+            <p>A professional with both front-end and back-end development skills, a full-stack developer can create and oversee entire web applications.</p>
+            <div class="buttons">
+                <a href="#" class="portfolio-btn">View my Portfolio</a>
+                <a href="#" class="hire-btn">Hire Me</a>
+            </div>
+        </div>
+        <img src="/assets/images/portfolio.jpeg" alt="Dulanji Amanda">
+    </div>
+    </section>
+
+   <section id="Services">
+   <div class="services">
+        <h2>Services I Provided</h2>
+        <div class="service-box">
+            <div>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive, aesthetically pleasing, and user-centric digital experiences.</p>
+            </div>
+            <div>
+                <h3>Application Design</h3>
+                <p>Crafting functional, visually appealing, and user-friendly software applications.</p>
+            </div>
+            <div>
+                <h3>Website Design</h3>
+                <p>Providing custom design solutions to create visually engaging and responsive websites.</p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="About">
+    <div class="about">
+        <img src="/assets/images/profile.jpg" alt="Dulanji Amanda">
+        <div class="about-info">
+            <h2>Who is <span>Dulanji Amanda?</span></h2>
+            <p>A passionate Full-Stack developer from Galle, Sri Lanka, focusing on improving coding skills and building web applications.</p>
+            <p><strong>Age:</strong> 21</p>
+            <p><strong>Residence:</strong> Sri Lanka</p>
+            <p><strong>Address:</strong> Galle</p>
+            <p><strong>Email:</strong> amandasathsarani03@gmail.com</p>
+            <p><strong>Phone:</strong> +94 713973528</p>
+            <a href="#" class="download-btn">Download CV</a>
+        </div>
+    </div>
+    </section>
+
+    <section class="skills">
+        <h2>Skills & Abilities</h2>
+        <div class="skills-container">
+            <div class="skill"><img src="/assets/images/Java.jpg" alt="Java"><p>Java</p></div>
+            <div class="skill"><img src="/assets/images/github.jpg" alt="GitHub"><p>GitHub</p></div>
+            <div class="skill"><img src="/assets/images/MySQL Logo.jpg" alt="MySQL"><p>MySQL</p></div>
+            <div class="skill"><img src="/assets/images/nodejs.jpg" alt="NodeJS"><p>NodeJS</p></div>
+            <div class="skill"><img src="/assets/images/html.jpg" alt="HTML"><p>HTML</p></div>
+            <div class="skill"><img src="/assets/images/css.jpg" alt="CSS"><p>CSS</p></div>
+        </div>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-card">
+                <img src="/assets/images/ijse.jpeg" alt="IJSE">
+                <div class="education-info">
+                    <h3>IJSE - Institute of Software Engineering</h3>
+                    <p>University of Software Engineering</p>
+                    <p><span class="year">2024-2026</span> | <span class="status">Undergraduate</span></p>
+                </div>
+            </div>
+            <div class="education-card">
+                <img src="/assets/images/sbv.jpeg" alt="Sanghamitta Balika Vidyalaya Galle">
+                <div class="education-info">
+                    <h3>Sanghamitta Balika Vidyalaya Galle</h3>
+                    <p>School | O/L | A/L</p>
+                    <p><span class="year">2009-2021</span> | <span class="status">Completed</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <h2><span>-</span>Projects</h2>
+        
+        <div class="project-container">
+            
+            <div class="project-card">
+                <img src="/assets/images/bookshop.png" alt="Bookshop Stock Management System">
+                <button class="learn-more">Learn More <span>→</span></button>
+                <p><strong>Bookshop Stock Management System (STOCKVERSE)</strong></p>
+            </div>
+
+            <div class="project-card">
+                <img src="/assets/images/tictacto8e.jpeg" alt="Tic Tac Toe Game">
+                <button class="learn-more">Learn More <span>→</span></button>
+                <p><strong>Tic Tac Toe Game</strong></p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="contact form">
+        <h2>-Contact Me</h2>
+            <img src="/assets/images/contact.png" alt="Contact Image">
+            <form> 
+                <input type="text" id="name" name="name" placeholder="Name" required><br>
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+                <input type="tel" id="phone" name="phone" placeholder="Phone"><br>
+                <textarea id="message" name="message" placeholder="Message" required></textarea><br>
+                <button type="submit">Submit<img src="/assets/images/telegram-app.png" alt="submit"style="width: 15px; height: 15px; object-fit: cover;"/></button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+    <div class="portfolio-info">
+        <h3>Dulanji's Portfolio</h3>
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+        <p style="color:#f0ad4e;">Keep Rising. Connect with me over live chat!</p>
+    </div>
+    <div class="quick-links">
+        <h3>quick links</h3>
+            <nav>
+            <ul>
+                <li><a href="#home"> <img src="/assets/images/circled-chevron-right.png" alt="arrow"style="width: 10px; height: 10px; object-fit: cover;"/>home</a></li>
+                <li><a href="#about"><img src="/assets/images/circled-chevron-right.png" alt="arrow"style="width: 10px; height: 10px; object-fit: cover;"/> about</a></li>
+                <li><a href="#skills"><img src="/assets/images/circled-chevron-right.png" alt="arrow"style="width: 10px; height: 10px; object-fit: cover;"/> skills</a></li>
+                <li><a href="#education"><img src="/assets/images/circled-chevron-right.png" alt="arrow"style="width: 10px; height: 10px; object-fit: cover;"/> education</a></li>
+                <li><a href="#works"><img src="/assets/images/circled-chevron-right.png" alt="arrow"style="width: 10px; height: 10px; object-fit: cover;"/> work</a></li>
+            </ul>
+            </nav>
+    </div>
+    <div class="contact-info">
+        <h3>Contact Info</h3>
+            <p><li><img src="/assets/images/phone.png" alt="phone"style="width: 20px; height: 20px; object-fit: cover;"/> -+94 713973528</li></p>
+            <p><li><img src="/assets/images/mail.png" alt="mail"style="width: 20px; height: 20px; object-fit: cover;"/> -amandasathsarani03@gmail.com</li></p>
+            <p><li><img src="/assets/images/google-maps.png" alt="residence"style="width: 20px; height: 20px; object-fit: cover;"/> -Galle, Sri Lanka-80000</li></p>
+        <nav>
+        <div>
+            <a href="" target="blank"><img src="/assets/images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Dulanji-Amanda" target="blank"><img src="/assets/images/github.png" alt="github"></a>
+            <a href="mailto:amandasathsarani03@gmail.com" target="blank"><img src="/assets/images/circled-envelope.png" alt="Email"></a>
+        </div>
+            <button><a href="#home" class="back-to-top">Back To Top <img src="/assets/images/up.png" alt="up"style="width: 15px; height: 15px; object-fit: cover;"/></a></button>
+        </nav>
+    </div>
+    <div class="footer-bottom">
+        <p>-Design by Dulanji Amanda Sathsarani-</p>         
+    </div>
+    </div>
+</footer>       
+
 </body>
 </html>

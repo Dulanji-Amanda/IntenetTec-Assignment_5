@@ -19,7 +19,13 @@ body {
     color: #333;
 }
 .skills-container {
-    display: flex;
+    width: 1400px;
+    height: 70vh;
+    display: grid;
+    margin-left: 150px;
+    margin-right: 100px;
+    border-radius: 15px;
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -31,6 +37,12 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 120px;
+    height: 130px;
+    border: 3px solid rgb(239, 179, 68);
+}
+.skill:hover{
+    transform: scale(1.1);
+
 }
 .skill img {
     width: 50px;

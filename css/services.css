@@ -1,17 +1,112 @@
-
-.services, .about {
+#services-section {
     padding: 50px;
+    text-align: left;
 }
-.services h2, .about h2 {
-    color: #d4a02b;
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
-.service-box {
+
+.highlight {
+    color: #f0b52b;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.yellow-text {
+    color: #f0b52b;
+}
+
+.black-text {
+    color: black;
+}
+
+
+.services-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
-.service-box div {
-    background: #f0f0f0;
+
+.service-card {
+    background-color: #e6e6e6;
     padding: 20px;
     border-radius: 10px;
-    width: 30%;
+    text-align: left;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.service-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.service-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #444;
+}
+
+.learn-more {
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.arrow {
+    color: #f0b52b;
+    font-weight: bold;
+}
+
+
+.services-button {
+    margin-top: 30px;
+}
+
+.view-all-btn {
+    background-color: #3b6226;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.view-all-btn .arrow {
+    color: black;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
 }

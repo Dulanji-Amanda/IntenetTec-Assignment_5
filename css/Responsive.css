@@ -1,0 +1,96 @@
+/* Mobile Small (320px) */
+@media (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .buttons button {
+        font-size: 12px;
+    }
+   
+}
+
+/* Mobile Medium (375px) */
+@media (max-width: 375px) {
+    body {
+        font-size: 14px;
+    }
+    .hero-content h1 {
+        font-size: 26px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .buttons button {
+        font-size: 14px;
+    }
+}
+
+/* Mobile Large (425px) */
+@media (max-width: 425px) {
+    body {
+        font-size: 16px;
+    }
+    .hero-content h1 {
+        font-size: 28px;
+    }
+    .hero-content p {
+        font-size: 18px;
+    }
+    .buttons button {
+        font-size: 16px;
+    }
+}
+
+/* Tablet (768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    .hero-content h1 {
+        font-size: 32px;
+    }
+    .hero-content p {
+        font-size: 20px;
+    }
+    .buttons button {
+        font-size: 18px;
+    }
+}
+
+/* Laptop (1024px) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+    .hero-content h1 {
+        font-size: 36px;
+    }
+    .hero-content p {
+        font-size: 22px;
+    }
+    .buttons button {
+        font-size: 20px;
+    }
+}
+
+/* Laptop Large (1440px) */
+@media (max-width: 1440px) {
+    body {
+        font-size: 22px;
+    }
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    .hero-content p {
+        font-size: 24px;
+    }
+    .buttons button {
+        font-size: 22px;
+    }
+}

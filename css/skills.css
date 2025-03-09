@@ -1,10 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
-.skills {
+
+#skills {
     background-color: white;
     padding: 20px;
     display: flex;

@@ -102,16 +102,13 @@
     width: 10px;
     height: 10px;
     object-fit: cover;
-    text-decoration:none;
-}
-.box{
-    width: 80px;
-    height: 150px;
-    border: 1px solid black;
-    padding:6px;
-    background-color: #9db398;
 }
 .app{
     width: 40px;
     height: 40px;
+}
+#link{
+    text-decoration:none;
+    font-size: medium;
+    color: white;
 }
